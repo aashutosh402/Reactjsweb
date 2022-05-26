@@ -1,0 +1,26 @@
+.bgimg{
+background-image: url('./assets/images/img1.jpg');   
+}
+
+.navlink{
+font-size: 2rem;
+margin:8px 4px 0 4px;
+color: white;
+}
+
+.logo{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+.logo:hover{
+    color: burlywood;
+    transform: scale(1.2);
+transition:cubic-bezier(0.86, 0, 0.07, 1)
+}
+.navlink:hover{
+    color: burlywood;
+    transform: scale(1.2);
+    transition:cubic-bezier(0.86, 0, 0.07, 1)
+}
